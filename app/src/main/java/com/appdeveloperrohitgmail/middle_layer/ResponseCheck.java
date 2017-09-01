@@ -5,8 +5,10 @@ package com.appdeveloperrohitgmail.middle_layer;
  */
 
 public class ResponseCheck {
-    String q_id,response;
-    public ResponseCheck() {
+    String response_id,responseTime;
+    public ResponseCheck(String response_id, String responseTime) {
+        this.response_id = response_id;
+        this.responseTime = responseTime;
 
     }
 }
